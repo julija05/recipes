@@ -1,0 +1,29 @@
+{
+  "name": "myrecipeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "julija05"
+  },
+  "keywords": [
+    "foryou",
+    "recipeapp"
+  ],
+  "author": "Julija Delik",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "node-sass": "^5.0.0",
+    "parcel": "^2.0.0-beta.2"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-private-methods": "^7.13.0"
+  }
+}

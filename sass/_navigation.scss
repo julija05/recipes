@@ -1,0 +1,33 @@
+.navbar {
+  position: sticky;
+  font-size: 2.5rem;
+  width: 100%;
+  z-index: 20;
+  opacity: 0.9;
+  height: 10rem;
+
+  /* background: rgb(226, 182, 36); */
+  background: linear-gradient(
+      to right,
+      rgba(160, 93, 93, 0.8),
+      rgb(240, 194, 108, 0.9)
+    ),
+    url("/img/food-ill.jpeg");
+}
+.navbar__logo {
+  width: 20rem;
+  .logo {
+    width: 20rem;
+  }
+}
+.nav-item {
+  margin: 2rem;
+  font-size: 2rem;
+  font-weight: 1000;
+  text-transform: uppercase;
+}
+.nav-link {
+  color: white;
+  transform: translate(110rem);
+  letter-spacing: 0.3rem;
+}

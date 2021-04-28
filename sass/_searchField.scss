@@ -1,0 +1,67 @@
+.btn-searchField {
+  font-size: 2.5rem;
+}
+.card-body {
+  background-image: url(../img/food-ill.jpeg);
+  background: rgba(65, 66, 65, 0.7);
+
+  .search {
+    border: 0.2rem solid black;
+    border-radius: 5rem;
+    width: 60rem;
+    margin: 8rem;
+    transform: translate(50rem, -5rem);
+    background-color: white;
+
+    &__field {
+      display: inline-block;
+      position: relative;
+      font-size: 1.6rem;
+      width: 50rem;
+      margin: 1rem;
+      &--text {
+        margin: 4rem;
+        width: 30rem;
+        height: 4rem;
+        transform: translateX(5rem);
+        border-bottom: 0.3rem solid orange;
+        border-right: 0.3rem solid orange;
+      }
+    }
+    .dropdown {
+      margin: 2rem;
+      transform: translate(1rem);
+      z-index: -20;
+      border-top: 0.2rem solid gray;
+
+      .btn-group {
+        margin: 3rem;
+        font-size: 2rem;
+        transform: translateX(3rem);
+      }
+      &-toggle {
+        font-size: 1.6rem;
+        font-weight: bold;
+      }
+      &-item {
+        font-family: sans-serif;
+        font-size: 1.6rem;
+        font-weight: bold;
+        word-spacing: 2rem;
+        margin: 1rem;
+
+        & input {
+          width: 2rem;
+          height: 2rem;
+          margin-right: 2rem;
+        }
+      }
+    }
+
+    .btn-outline-warning {
+      margin: 2rem;
+      // transform: translate(10rem);
+      font-size: 2rem;
+    }
+  }
+}
